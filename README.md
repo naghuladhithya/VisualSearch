@@ -1,7 +1,7 @@
 # VisualSearch
 
 Names:
-Jordan
-Rishi
-Adhi
+Jordan,
+Rishi,
+Adhi,
 Brian
