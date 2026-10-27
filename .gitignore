@@ -1,0 +1,87 @@
+# ==========================================
+# macOS / System Noise
+# ==========================================
+**/.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Environment & Secrets
+# ==========================================
+.env
+.env.local
+
+# ==========================================
+# Python & PyTorch Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ==========================================
+# C++ Build Outputs & Executables
+# ==========================================
+# CMake build directories
+build/
+build_*/
+cmake-build-debug/
+cmake-build-release/
+
+# Compiled Binaries & Libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# ==========================================
+# YOLO Weights & Model Export Outputs
+# ==========================================
+# Weights & Checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.param
+*.bin
+*.weights
+
+# Training Run Logs & Outputs (Ultralytics defaults)
+runs/
+wandb/
+tensorboard/
+*.log
+
+# ==========================================
+# Large Datasets & Annotations (Optional)
+# ==========================================
+# Uncomment these if you don't want local images/labels pushed to GitHub:
+# dataset/
+# *.zip
+# *.tar.gz
